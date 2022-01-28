@@ -13,7 +13,6 @@ char WriteFileOriginBytes[6];
 SIZE_T bytesWritten;
 HANDLE hOutFile;
 
-
 BOOL WINAPI HookedWriteFile(
 	_In_ HANDLE hFile,
 	_In_reads_bytes_opt_(nNumberOfBytesToWrite) LPCVOID lpBuffer,
